@@ -68,7 +68,7 @@ function setup() {
         spike.width = 40;
         spike.height = 40;
         spike.scale = 0.45;
-        spike.collider = 'square';
+        spike.collider = 'circle';
         spike.x = plat.x; 
         spike.y = plat.y + 25; 
         spike.static = true;
@@ -181,5 +181,6 @@ function update() {
    }
 
 }
+
 
 
