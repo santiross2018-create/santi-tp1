@@ -33,7 +33,7 @@ function setup() {
     playerSprite.debug = false;
     playerSprite.scale = 1.5;
     playerSprite.x = 900;
-    //playerSprite.gravityScale = 0.5;
+    playerSprite.gravityScale = 0.5;
     playerSprite.mass = 1;
     floor = new Sprite(width/2,windowHeight+10,windowWidth,50,STATIC);
     floor.opacity = 0;
@@ -181,3 +181,4 @@ function update() {
    }
 
 }
+
