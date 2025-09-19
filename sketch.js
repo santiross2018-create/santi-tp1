@@ -11,8 +11,6 @@ let heart;
 let lives = 3;
 let gameOver;
 let gameOverSwitch = false;
-
-// --- NEW: Spike balls ---
 let spikeBalls;
 let spikeBallImg;
 
@@ -61,7 +59,7 @@ function setup() {
         plataforma.static = true;
     }
     
-    // spike ball en cada plataforma
+    // spike en cada plataforma
     spikeBalls = [];
     for (let i = 0; i < 3; i++) {
         let plat = plataformas[i];
@@ -181,4 +179,5 @@ function update() {
        }
        key.x = -1000;
    }
+
 }
